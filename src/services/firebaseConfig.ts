@@ -7,13 +7,13 @@ import 'firebase/database';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDboclUvmgR_9RMt5_mrgsWlbGY5ZFbehA",
-    authDomain: "todoapp-5ff2d.firebaseapp.com",
-    projectId: "todoapp-5ff2d",
-    storageBucket: "todoapp-5ff2d.appspot.com",
-    messagingSenderId: "9906108633",
-    appId: "1:9906108633:web:0e907e97bc20af4fdbe6c8"
-};
+    apiKey: "AIzaSyB4s4GC6GiCiiRSQjvajyHsro68YT6Z7dM",
+    authDomain: "tasks-68b79.firebaseapp.com",
+    projectId: "tasks-68b79",
+    storageBucket: "tasks-68b79.appspot.com",
+    messagingSenderId: "919906235460",
+    appId: "1:919906235460:web:a42001052e934583263811"
+  };
 
 export function firebaseInitialize() {
     initializeApp(firebaseConfig);

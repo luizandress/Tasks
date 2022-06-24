@@ -75,7 +75,7 @@ export function AuthContextProvider(props: AuthContextProviderProps) {
 
                 if (!exists) {
                     const initialList = {
-                        title: 'Meu dia',
+                        title: 'Minhas tarefas',
                     } as IListProps;
                     const newList = await push(referenceList, initialList);
                     const referenceTask = ref(db, `users/${uid}/lists/${newList.key}/tasks`)
