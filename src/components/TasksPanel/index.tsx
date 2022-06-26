@@ -130,7 +130,7 @@ export function TasksPanel() {
 
 
                 <ContainerControllerTask>
-                    <HeaderTasks onClick={() => setExpandedDone(!expandedDone)}>Prontas
+                    <HeaderTasks onClick={() => setExpandedDone(!expandedDone)}>Concluídas
                         {expandedDone ? <ExpandLess /> : <ExpandMore />}
                     </HeaderTasks>
                     <ContainerTasks expanded={expandedDone}>
